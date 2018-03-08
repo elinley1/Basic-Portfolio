@@ -15,40 +15,27 @@
                 Erin Linley
             </div>
             <div class="nav-wrapper">
-                <div class="nav">
-                    <div class="nav-el">
+                <div>
+                    <nav class="nav1">
                         <a href="index.html">About</a>
-                    </div>
-                    <div class="nav-el nav-el-with-border">
+                    </nav>
+                    <nav class="nav2">
                         <a href="portfolio.html">Portfolio</a>
-                    </div>
-                    <div class="nav-el">
+                    </nav>
+                    <nav class="nav1">
                         <a href="contact.html">Contact</a>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
-    <div class="container">
-        <form action="action_page.php">
+    <form enctype="text/plain" method="get" action="mailto:webdesign@aboutguide.com">
+
+        Your First Name: <input type="text" name="first_name"><br>
+        Your Last Name: <input type="text" name="last_name"><br>
+        Comments: <textarea rows="5" cols="30" name="comments"></textarea>
+        
+        <input type="submit" value="Send">
+        
+    </form>
     
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    
-        <label for="country">Country</label>
-        <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-        </select>
-    
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    
-        <input type="submit" value="Submit">
-    
-        </form>
-    </div>
