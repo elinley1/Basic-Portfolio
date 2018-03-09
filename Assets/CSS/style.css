@@ -118,7 +118,8 @@ form {
     line-height: 1.5;
 }
 input {
-    text-align: left
+    text-align: auto;
+    display: inline-block;
 }
 .portfolio-section {
     display: block;
@@ -151,8 +152,5 @@ input {
 .portfolio-image:nth-child(even) {
     margin-right: 40px;
 }
-figcaption {
-    text-align: center;
-    color: #4aaaa5;
-}
+
   

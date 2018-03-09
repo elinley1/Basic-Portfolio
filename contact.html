@@ -29,13 +29,22 @@
             </div>
         </div>
     </header>
-    <form enctype="text/plain" method="get" action="mailto:elinley1@gmail.com">
-
-        Your Name: <input type="text" name="first_name"><br>
-        Subject: <input type="text" name="subject"><br>
-        Comments: <textarea rows="5" cols="30" name="comments"></textarea>
-        
-        <input type="submit" value="Send">
-        
-    </form>
+    <div class="container">
+        <header>
+            <h2 id="name"><strong>Contact Me</strong></h2>
+        </header>
     
+        <form action="mailto:elinley1@gmail.com" method="post" enctype="text/plain">
+            Your Name:<br />
+            <input type="text" name="full-name" value="" maxlength="100" /><br />
+            
+            Subject: <br />
+            <input type="text" name="subject" value="" maxlength="150" /><br />
+
+            Comments:<br />
+            <textarea rows="5" cols="20" name="comments"></textarea><br />
+            
+            <input type="submit" value="Submit" />
+            
+        </form>
+    </div>    
